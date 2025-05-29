@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-font: sans-serif;
     --background-color: rgb(250, 204, 195);
@@ -10,11 +16,6 @@ html {
     font-size: 62.5%;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .backcolor {
     font-family: var(--primary-font);
