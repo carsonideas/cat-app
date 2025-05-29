@@ -1,0 +1,231 @@
+:root {
+    --primary-font: sans-serif;
+    --background-color: rgb(250, 204, 195);
+    --text-color-dark: #2c2c2c;
+    --accent-color: #bb9fc3;
+    --input-background: rgba(255, 255, 255, 0.9);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backcolor {
+    font-family: var(--primary-font);
+    background-color: var(--background-color);
+    height: 31vh;
+    padding: 2rem;
+}
+
+@media (max-width: 76.8rem) {
+    .backcolor {
+        height: 44vh;
+    }
+}
+
+@media (min-width: 76.9rem) {
+    .backcolor {
+        height: 40vh;
+    }
+}
+
+@media (min-width: 102.4rem) {
+    .backcolor {
+        background-color: var(--background-color);
+        height: 31vh;
+    }
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.Cats_App_text {
+    text-align: center;
+    font-size: 2.85rem;
+    font-weight: bold;
+    color: var(--text-color-dark);
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+@media (max-width: 76.8rem) {
+    .Cats_App_text {
+        font-size: 2.9rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.form-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 76.8rem) {
+    .form-sections {
+        gap: 0.1rem;
+    }
+}
+
+@media (min-width: 76.9rem) {
+    .form-sections {
+        flex-direction: row;
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 102.4rem) {
+    .form-sections {
+        flex-direction: row;
+        gap: 6rem;
+    }
+}
+
+.form-section {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* backdrop-filter: blur(10px); */
+    /* border-radius: 20px; */
+    /* padding: 40px; */
+    /* flex: 1; */
+}
+
+@media (max-width: 76.8rem) {
+    .form-section {
+        padding-top: 4rem;
+        width: auto;
+        margin: auto;
+    }
+}
+
+@media (min-width: 102.4rem) {
+    .form-section {
+        padding: 3.5rem;
+    }
+}
+
+.Number_Of_Cats_Facts {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color-dark);
+    margin-bottom: 2rem;
+}
+
+.Number_Of_Cats_Photos {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color-dark);
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.text_input_box {
+  width: 40rem;
+    flex: 1;
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--input-background);
+    color: var(--accent-color);
+    padding-left: 2rem;
+    font-style: italic;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 76.8rem) {
+    .text_input_box {
+        padding-top: 2.3rem;
+        padding-bottom: 2.3rem;
+        font-style: italic;
+        font-size: 1.5rem;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 auto;
+        width: 40rem;
+    }
+}
+
+.text_input_box::placeholder {
+  color: var(--accent-color);
+}
+
+.submit_button1 {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 12rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 76.8rem) {
+    .submit_button1 {
+        width: 12rem;
+    }
+}
+
+.submit_button2 {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 12rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width: 76.8rem) {
+    .submit_button2 {
+        width: 12rem;
+    }
+}
+
+@media (min-width: 76.9rem) {
+    .text_input_box {
+        font-style: italic;
+        font-size: 1.5rem;
+        color: var(--accent-color);
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin: 0 auto;
+        
+    }
+}

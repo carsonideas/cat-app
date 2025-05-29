@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/1.1.0/font-awesome-animation.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Vite App</title>
+
+  </head>
+  <body>
+    <div class="backcolor">
+      <div class="container">
+        <h1 class="Cats_App_text">The Cats App</h1>
+        
+        <div class="form-sections">
+            <div class="form-section">
+                <h2 class="Number_Of_Cats_Facts">Number Of Cats Facts (50 Maximum)</h2>
+                <form>
+                    <div class="form-group">
+                      
+                        <input 
+                            id="factsInput"
+                            type="number" 
+                            class="text_input_box"
+                            placeholder="number of cat facts (50 max)"
+                            min="1"
+                            max="50"
+                        >
+                        <button type="submit" class="submit_button1">Submit</button>
+                    </div>
+                    <div class="result-photos"></div> 
+                </form>
+            </div>
+
+            <div class="form-section">
+                <h2 class="Number_Of_Cats_Photos">Number Of Cats Photos (10 Max)</h2>
+                <form>
+                  <div class="form-group">
+                      <input 
+                          id="photosInput"
+                          type="number" 
+                          class="text_input_box"
+                          placeholder="number of cat photos (10 max)"
+                          min="1"
+                          max="10"
+                      >
+                      <button type="submit" class="submit_button2">Submit</button>
+                  </div>
+                  <div class="result-photos"></div> 
+              </form>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
+
+
+
+
